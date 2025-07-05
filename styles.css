@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.2rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+input:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: rgb(21, 255, 0);
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+}
+
+button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+
+
